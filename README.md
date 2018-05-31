@@ -20,4 +20,8 @@
 * [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
 * [Juggling](https://zsiegel92.github.io/juggling/)
 
+## Research and Freelance Projects
 
+* Reproducing "hotspot"-based predictive policing algorithm - with *Stop LAPD Spying Coalition*
+	* [MATLAB source](https://github.com/zsiegel92/HotspotsInLA)
+	* [Documentation](https://zsiegel.92.github.io/zsiegel92.github.io/Predpol.pdf)
