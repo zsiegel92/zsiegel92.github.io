@@ -5,7 +5,7 @@
 [GitHub](https://github.com/zsiegel92)
 
 
-## Tutoring
+## Tutorials
 
 * [Physics Tutorial](https://zsiegel92.github.io/Nikki_B)
 * [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
