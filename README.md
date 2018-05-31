@@ -11,7 +11,7 @@
 * [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
 * [Juggling](https://zsiegel92.github.io/juggling/)
 
-## Research and Freelance Software
+## Research and Software Projects
 
 
 * [Optimizing B'nai Mitzvot Scheduling (2018)](https://mitzvah-scheduler.herokuapp.com/form)
