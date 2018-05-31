@@ -20,7 +20,7 @@
 * [*GroupThere* Carpool Optimization (2016-17)](http://www.grouptherenow.com)
 	* [Python/Angular Webapp Source](https://github.com/zsiegel92/poolchat)
 	* [MATLAB Version Source](https://github.com/zsiegel92/GroupThere)
-* [Reproducing predictive policing algorithm with *Stop LAPD Spying Coalition*](https://zsiegel92.github.io/zsiegel92.github.io/assets/Predpol.pdf) (2016-17)
+* [Reproducing predictive policing algorithm with *Stop LAPD Spying Coalition*](https://zsiegel92.github.io/writing_repo/Predpol.pdf) (2016-17)
 	* [MATLAB source](https://github.com/zsiegel92/HotspotsInLA)
 * *FactoryOfEverything* Supply Chain Optimization (2016)
 	* [Documentation of Optimization Model](https://zsiegel92.github.io/optcentral/parameter_description_optcentral.pdf)
