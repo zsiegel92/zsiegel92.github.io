@@ -1,6 +1,6 @@
 <div style="display:inline"><h1 style="display:inline">Zach Siegel</h1><br><a href="mailto:zachary.edmund.siegel@gmail.com">zachary.edmund.siegel@gmail.com</a></div>
 <br>
-[Resume](https://zsiegel92.github.io/resume/index.html) ([pdf](https://zsiegel92.github.io/resume/Resume_Siegel.pdf))
+[Resume](https://zsiegel92.github.io/resume/Resume_Siegel.html) ([pdf](https://zsiegel92.github.io/resume/Resume_Siegel.pdf))
 <br>
 [GitHub](https://github.com/zsiegel92)
 
