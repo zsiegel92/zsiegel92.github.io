@@ -8,8 +8,6 @@
 		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
 		<h2 >Mathematics, Education</h2>
 	</div>
-	<div id="flexer" class="flex-container">
-	</div>
 	<div id="contactDetails" >
 		<ul>
 			<li><a href="mailto:zachary.edmund.siegel@gmail.com" target="_blank">zachary.edmund.siegel@gmail.com</a></li>

@@ -2,6 +2,13 @@
 	clear: both;
 }
 
+html, body {
+	background: #f3f3f3;
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	font-size: 16px;
+	color: #222;
+}
+
 
 
 .mainDetails {
@@ -43,8 +50,7 @@
 #headshot img {
 	width: 100%;
 	height: auto;
-	/*-webkit-border-radius: 50px;*/
-	border-radius: 50px;
+	border-radius: 25px;
 }
 
 #name {
@@ -61,5 +67,4 @@
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #444;
 }
