@@ -6,10 +6,19 @@
 
 .mainDetails {
 	/*padding: var(--top-padding) var(--side-padding);*/
-	border-bottom: 2px solid var(--accent-color);
+	/*border-bottom: 2px solid var(--accent-color);*/
 	/*background: #ededed;*/
 }
 
+#contactDetails {
+	float: left;
+	/*margin-left: 30px;*/
+}
+
+.flex-container {
+	display: flex;
+	flex-direction:row;
+}
 
 #name h1 {
 	font-size: 2.5em;
@@ -40,11 +49,10 @@
 
 #name {
 	float: left;
+	display: inline-block;
 }
 
-#contactDetails {
-	float: right;
-}
+
 
 #contactDetails ul {
 	list-style-type: none;
