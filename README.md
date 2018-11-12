@@ -1,8 +1,26 @@
-<div style="display:inline"><h1 style="display:inline">Zach Siegel</h1><br><a href="mailto:zachary.edmund.siegel@gmail.com">zachary.edmund.siegel@gmail.com</a></div>
+<link type="text/css" rel="stylesheet" href="styles.css">
+
+<div class="mainDetails">
+	<div id="headshot" >
+			<img src="jaipur_headshot.jpeg" alt="Zach Siegel" />
+	</div>
+	<div id="name">
+		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
+		<h2 >Mathematics, Education</h2>
+	</div>
+	<div id="contactDetails" >
+		<ul>
+			<li><a href="mailto:zachary.edmund.siegel@gmail.com" target="_blank">zachary.edmund.siegel@gmail.com</a></li>
+			<li><a href="https://github.com/zsiegel92">GitHub</a></li>
+			<li><a href="grouptherenow.com">grouptherenow.com</a></li>
+			<li><a href="https://zsiegel92.github.io/resume/Resume_Siegel.html">Resume</a> (<a href="https://zsiegel92.github.io/resume/Resume_Siegel.pdf">pdf</a>)</li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
 <br>
-[Resume](https://zsiegel92.github.io/resume/Resume_Siegel.html) ([pdf](https://zsiegel92.github.io/resume/Resume_Siegel.pdf))
-<br>
-[GitHub](https://github.com/zsiegel92)
+
+
 
 
 ## Tutorials

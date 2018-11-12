@@ -1,0 +1,57 @@
+.clear {
+	clear: both;
+}
+
+
+
+.mainDetails {
+	/*padding: var(--top-padding) var(--side-padding);*/
+	border-bottom: 2px solid var(--accent-color);
+	/*background: #ededed;*/
+}
+
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	/*-webkit-border-radius: 50px;*/
+	border-radius: 50px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
