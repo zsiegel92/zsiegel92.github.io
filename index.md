@@ -49,4 +49,4 @@
 * [Physics Tutorial](https://zsiegel92.github.io/Nikki_B)
 * [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
 * [Python Trouble Tutorial](https://zsiegel92.github.io/evilpython)
-* [Juggling](https://zsiegel92.github.io/juggling/)
+<!-- * [Juggling](https://zsiegel92.github.io/juggling/) -->
