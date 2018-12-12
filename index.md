@@ -22,14 +22,6 @@
 
 
 
-
-## Tutorials
-
-* [Physics Tutorial](https://zsiegel92.github.io/Nikki_B)
-* [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
-* [Python Trouble Tutorial](https://zsiegel92.github.io/evilpython)
-* [Juggling](https://zsiegel92.github.io/juggling/)
-
 ## Research and Software Projects
 
 
@@ -50,3 +42,11 @@
 	* [Poster](https://zsiegel92.github.io/writing_repo/wavefield_poster.pdf) presented at Joint Mathematics Meeting 2014 (awarded *Outstanding Presentation Award*)
 * [*Aquatic Insect Populations' Response to Time-Varying Reproductive Rates*](https://zsiegel92.github.io/writing_repo/Aquatic_Insects.pdf) (2012)
 * [*Zero-Sum Flows of the Linear Lattice*](https://zsiegel92.github.io/writing_repo/Zero_Sum_Flows.pdf) (2012)
+
+
+## Tutorials
+
+* [Physics Tutorial](https://zsiegel92.github.io/Nikki_B)
+* [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
+* [Python Trouble Tutorial](https://zsiegel92.github.io/evilpython)
+* [Juggling](https://zsiegel92.github.io/juggling/)
