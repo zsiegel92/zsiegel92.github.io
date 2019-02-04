@@ -28,7 +28,7 @@
 * Optimizing B'nai Mitzvot Scheduling (2018)
 	* [Documentation](https://zsiegel92.github.io/mitzvah_writeup/Mitzvah.pdf)
 	* [Source](https://github.com/zsiegel92/mitzvah_scheduler)
-	* [Front End Demo](https://mitzvah-scheduler.herokuapp.com/form)
+	* [Front End Demo](https://mitzvah-scheduler.herokuapp.com/form) (takes up to 15 seconds to boot up)
 * *GroupThere* Carpool Optimization (2016-17)
 	* [Live Application](http://www.grouptherenow.com)
 	* [Python/Angular Webapp Source](https://github.com/zsiegel92/poolchat)
