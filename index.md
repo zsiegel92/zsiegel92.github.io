@@ -25,9 +25,10 @@
 ## Research and Software Projects
 
 
-* Optimizing B'nai Mitzvot Scheduling (2018)
+* Optimizing B'nai Mitzvot Scheduling (2018 & 2019)
 	* [Documentation](https://zsiegel92.github.io/mitzvah_writeup/Mitzvah.pdf)
-	* [Source](https://github.com/zsiegel92/mitzvah_scheduler)
+	* [Source code 2018 (for 2021 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_scheduler)
+	* [Source code 2019 (for 2022 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_2022)
 	* [Front End Demo](https://mitzvah-scheduler.herokuapp.com/form) (takes up to 15 seconds to load if not opened recently)
 * *GroupThere* Carpool Optimization (2016-17)
 	* [Live Application](http://www.grouptherenow.com)
