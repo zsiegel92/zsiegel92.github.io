@@ -6,11 +6,12 @@
 	</div>
 	<div id="name">
 		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
-		<h2 >Mathematics, Education</h2>
+		<h2>PhD Candidate at Anderson<br>School of Management, UCLA</h2>
 	</div>
 	<div id="contactDetails" >
 		<ul>
 			<li><a href="mailto:zachary.edmund.siegel@gmail.com" target="_blank">zachary.edmund.siegel@gmail.com</a></li>
+			<li><a href="mailto:zachary.siegel.phd@anderson.ucla.edu" target="_blank">zachary.siegel.phd@anderson.ucla.edu</a></li>
 			<li><a href="https://github.com/zsiegel92">GitHub</a></li>
 			<li><a href="grouptherenow.com">grouptherenow.com</a></li>
 			<li><a href="https://zsiegel92.github.io/resume/Resume_Siegel.html">Resume</a> (<a href="https://zsiegel92.github.io/resume/Resume_Siegel.pdf">pdf</a>)</li>
@@ -57,4 +58,5 @@
 * [Physics Tutorial](https://zsiegel92.github.io/Nikki_B)
 * [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
 * [Python Trouble Tutorial](https://zsiegel92.github.io/evilpython)
+* [Interactive Jupyter Notebook (Regression)](http://localhost:8888/notebooks/Math%20Camp%20Assignment%20with%20Slider.ipynb)
 <!-- * [Juggling](https://zsiegel92.github.io/juggling/) -->
