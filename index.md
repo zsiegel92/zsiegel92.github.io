@@ -2,7 +2,7 @@
 
 <div class="mainDetails">
 	<div id="headshot" >
-			<img src="jaipur_headshot.jpeg" alt="Zach Siegel" />
+			<img src="anderson_headshot.jpg" alt="Zach Siegel" />
 	</div>
 	<div id="name">
 		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
