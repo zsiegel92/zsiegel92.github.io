@@ -1,5 +1,5 @@
 ---
-title: Zach Siegel - Resume
+title: Zach Siegel - Homepage
 ---
 <link type="text/css" rel="stylesheet" href="styles.css">
 <div class="mainDetails">
