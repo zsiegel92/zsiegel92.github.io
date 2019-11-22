@@ -31,26 +31,26 @@ html, body {
 	font-size: 2.5em;
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	margin-bottom: -6px;
+	margin-bottom: -10px;
 }
 
 #name h2 {
-	font-size: 2em;
-	margin-left: 2px;
+	font-size: 1.5em;
+	margin-left: 1px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
 
 
 #headshot {
-	width: 12.5%;
+	width: 15%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 25px;
 }
 
 #headshot img {
 	width: 100%;
 	height: auto;
-	border-radius: 25px;
+	border-radius: 10px;
 }
 
 #name {
