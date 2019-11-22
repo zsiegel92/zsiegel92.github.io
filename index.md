@@ -1,5 +1,7 @@
+---
+title: Zach Siegel - Resume
+---
 <link type="text/css" rel="stylesheet" href="styles.css">
-
 <div class="mainDetails">
 	<div id="headshot" >
 			<img src="anderson_headshot.jpg" alt="Zach Siegel" />
@@ -60,3 +62,4 @@
 * [Python Trouble Tutorial](https://zsiegel92.github.io/evilpython)
 * [Interactive Jupyter Notebook (Regression)](http://localhost:8888/notebooks/Math%20Camp%20Assignment%20with%20Slider.ipynb)
 <!-- * [Juggling](https://zsiegel92.github.io/juggling/) -->
+
