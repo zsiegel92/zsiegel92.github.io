@@ -55,11 +55,13 @@ title: Zach Siegel - Homepage
 	* [PDF](https://zsiegel92.github.io/writing_repo/Zero_Sum_Flows.pdf)
 
 
-## Tutorials
+## Visualization
 
-* [Physics Tutorial](https://zsiegel92.github.io/Nikki_B)
+
+
+<!-- * [Physics Tutorial](https://zsiegel92.github.io/Nikki_B)
 * [Web Development Tutorial](https://zsiegel92.github.io/Eitan_S)
 * [Python Trouble Tutorial](https://zsiegel92.github.io/evilpython)
-* [Interactive Jupyter Notebook (Regression)](http://localhost:8888/notebooks/Math%20Camp%20Assignment%20with%20Slider.ipynb)
+* [Interactive Jupyter Notebook (Regression)](http://localhost:8888/notebooks/Math%20Camp%20Assignment%20with%20Slider.ipynb) -->
 <!-- * [Juggling](https://zsiegel92.github.io/juggling/) -->
 
