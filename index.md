@@ -8,7 +8,7 @@ title: Zach Siegel - Homepage
 	</div>
 	<div id="name">
 		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
-		<h2>PhD Candidate at Anderson<br>School of Management, UCLA</h2>
+		<h2>PhD Student at Anderson<br>School of Management, UCLA</h2>
 	</div>
 	<div id="contactDetails" >
 		<ul>
