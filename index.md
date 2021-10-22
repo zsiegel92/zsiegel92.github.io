@@ -27,35 +27,41 @@ title: Zach Siegel - Homepage
 
 ## Research and Software Projects
 
-
+* Graduate Research
+	- [*Data Aggregation and Resource Allocation* (2021)](https://zsiegel92.github.io/writing_repo/UCLA/polling/data_aggregation.pdf)
+	- [*Pandemic Mitigation Optimization* (2021)](https://zsiegel92.github.io/writing_repo/UCLA/disaster_mitigation/covid_mitigation.pdf)
+	- [*Fairness, Efficiency, and Feature-Awareness in the Allocation of
+Public Goods* (2020)](https://zsiegel92.github.io/writing_repo/UCLA/polling/alpha_fairness.pdf)
+* Graduate Coursework
+	- [Ecological Inference Literature Review](https://zsiegel92.github.io/writing_repo/UCLA/stats203/ecological_inference.pdf)
+	- [Worker Safety Management](https://zsiegel92.github.io/writing_repo/UCLA/mgmt298d/dangerous_work.pdf)
+	- [Worker Safety Optimization](https://zsiegel92.github.io/writing_repo/UCLA/ee236c/dangerous_work.pdf)
+	- [Point Cloud Classification: Literature Review and Reproduction of *Point Net (2016)*](https://zsiegel92.github.io/writing_repo/UCLA/math273/pointnet.pdf)
+	- [Facility Location Problems Literature Review](https://zsiegel92.github.io/writing_repo/UCLA/mgmt242/pmedian.pdf)
 * Optimizing B'nai Mitzvot Scheduling (2018 & 2019)
-	* [Documentation](https://zsiegel92.github.io/mitzvah_writeup/Mitzvah.pdf)
-	* [Source code 2018 (for 2021 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_scheduler)
-	* [Source code 2019 (for 2022 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_2022)
-	* [Front End Demo](https://mitzvah-scheduler.herokuapp.com/form) (takes up to 15 seconds to load if not opened recently)
+	- [Documentation](https://zsiegel92.github.io/mitzvah_writeup/Mitzvah.pdf)
+	- [Source code 2018 (for 2021 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_scheduler)
+	- [Source code 2019 (for 2022 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_2022)
+	- [Front End Demo](https://mitzvah-scheduler.herokuapp.com/form) (takes up to 15 seconds to load if not opened recently)
 * *GroupThere* Carpool Optimization (2016-17)
-	* [Live Application](http://www.grouptherenow.com)
-	* [Python/Angular Webapp Source](https://github.com/zsiegel92/poolchat)
-	* [MATLAB Version Source](https://github.com/zsiegel92/GroupThere)
+	- [Live Application](http://www.grouptherenow.com)
+	- [Python/Angular Webapp Source](https://github.com/zsiegel92/poolchat)
+	- [MATLAB Version Source](https://github.com/zsiegel92/GroupThere)
 * Reproducing predictive policing algorithm with *Stop LAPD Spying Coalition* (2016-17)
-	* [MATLAB source](https://github.com/zsiegel92/HotspotsInLA)
-	* [Whitepaper](https://zsiegel92.github.io/writing_repo/Predpol.pdf)
+	- [MATLAB source](https://github.com/zsiegel92/HotspotsInLA)
+	- [Whitepaper](https://zsiegel92.github.io/writing_repo/Predpol.pdf)
 * *FactoryOfEverything* Supply Chain Optimization (2016)
-	* [Documentation of Optimization Model](https://zsiegel92.github.io/optcentral/parameter_description_optcentral.pdf)
-	* [Documentation of Data Processing](https://zsiegel92.github.io/optcentral/Theo_Letter_9-8-2016.pdf)
-	* [MATLAB source](https://github.com/zsiegel92/optcentral)
-* *Generative Models and Sparse Coding* (2014)
-	* [PDF](https://zsiegel92.github.io/writing_repo/Thesis.pdf)
-* *Anomaly Detection using Dictionary Learning* (2013)
-	* [PDF](https://zsiegel92.github.io/writing_repo/Wavefields_Report_compressed.pdf)
-	* [Poster](https://zsiegel92.github.io/writing_repo/wavefield_poster.pdf) presented at Joint Mathematics Meeting 2014 (awarded *Outstanding Presentation Award*)
-* *Aquatic Insect Populations' Response to Time-Varying Reproductive Rates* (2012)
-	* [PDF](https://zsiegel92.github.io/writing_repo/Aquatic_Insects.pdf)
-* *Zero-Sum Flows of the Linear Lattice* (2012)
-	* [PDF](https://zsiegel92.github.io/writing_repo/Zero_Sum_Flows.pdf)
+	- [Documentation of Optimization Model](https://zsiegel92.github.io/optcentral/parameter_description_optcentral.pdf)
+	- [Documentation of Data Processing](https://zsiegel92.github.io/optcentral/Theo_Letter_9-8-2016.pdf)
+	- [MATLAB source](https://github.com/zsiegel92/optcentral)
+* Undergraduate Research
+	- [ *Generative Models and Sparse Coding* (2014)](https://zsiegel92.github.io/writing_repo/Thesis.pdf)
+	- [*Anomaly Detection using Dictionary Learning* (2013)](https://zsiegel92.github.io/writing_repo/Wavefields_Report_compressed.pdf) ([poster presented at Joint Mathematics Meeting 2014](https://zsiegel92.github.io/writing_repo/wavefield_poster.pdf), awarded *Outstanding Presentation Award*)
+	- [*Aquatic Insect Populations' Response to Time-Varying Reproductive Rates* (2012)](https://zsiegel92.github.io/writing_repo/Aquatic_Insects.pdf)
+	- [*Zero-Sum Flows of the Linear Lattice* (2012)](https://zsiegel92.github.io/writing_repo/Zero_Sum_Flows.pdf)
 
 
-## Visualization
+<!-- ## Visualization -->
 
 
 
