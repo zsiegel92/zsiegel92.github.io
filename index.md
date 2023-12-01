@@ -1,6 +1,7 @@
 ---
 title: Zach Siegel - Homepage
 ---
+
 <link type="text/css" rel="stylesheet" href="styles.css">
 <div class="mainDetails">
 	<div id="headshot" >
@@ -27,6 +28,9 @@ title: Zach Siegel - Homepage
 
 ## Research and Software Projects
 
+* Open-Source/Hobby Software Projects
+  -  [Capsule](https://github.com/zsiegel92/capsule) ([live app](https://capsulepartner.vercel.app/) on Vercel) - a highly-stylized message sharing system.
+  -  [FastRPC](https://github.com/zsiegel92/fastRPC) a thin abstraction on top of FastAPI that, along with [openapi-typescript-sdk-generator](https://github.com/triggerdotdev/openapi-typescript-sdk-generator), allows for a fully type-safe Typescript SDK to be generated instantly on every save during development. Call Python functions from a fully type-aware TypeScript client with no networking code.
 * Graduate Research
 	- [*Data Aggregation and Resource Allocation* (2021)](https://zsiegel92.github.io/writing_repo/UCLA/polling/data_aggregation.pdf)
 	- [*Pandemic Mitigation Optimization* (2021)](https://zsiegel92.github.io/writing_repo/UCLA/disaster_mitigation/covid_mitigation.pdf)
