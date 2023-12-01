@@ -17,7 +17,7 @@ title: Zach Siegel - Homepage
 			<!-- <li><a href="mailto:zachary.siegel.phd@anderson.ucla.edu" target="_blank">zachary.siegel.phd@anderson.ucla.edu</a></li> -->
 			<li><a href="https://github.com/zsiegel92">GitHub</a></li>
 			<li><a href="https://grouptherenow.com">grouptherenow.com</a></li>
-			<li><a href="https://zsiegel92.github.io/resume/Resume_Siegel.html">Resume</a> (<a href="https://zsiegel92.github.io/resume/Resume_Siegel.pdf">pdf</a>)</li>
+			<li><a href="https://zsiegel92.github.io/resume/resume_siegel.html">Resume</a> (<a href="https://zsiegel92.github.io/resume/resume_siegel.pdf">pdf</a>)</li>
 		</ul>
 	</div>
 	<div class="clear"></div>
