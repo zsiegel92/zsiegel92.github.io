@@ -1,7 +1,7 @@
-<link type="text/css" rel="stylesheet" href="styles.css">
+<link type="text/css" rel="stylesheet" href="./styles.css">
 <div class="mainDetails">
 	<div id="headshot" >
-			<img src="anderson_headshot.jpg" alt="Zach Siegel" />
+			<img src="./anderson_headshot.jpg" alt="Zach Siegel" />
 	</div>
 	<div id="name">
 		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
