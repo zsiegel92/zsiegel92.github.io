@@ -12,7 +12,7 @@
 			<li><a href="mailto:zachary.edmund.siegel@gmail.com" target="_blank">zachary.edmund.siegel@gmail.com</a></li>
 			<!-- <li><a href="mailto:zachary.siegel.phd@anderson.ucla.edu" target="_blank">zachary.siegel.phd@anderson.ucla.edu</a></li> -->
 			<li><a href="https://github.com/zsiegel92">GitHub</a></li>
-			<li><a href="https://grouptherenow.com">grouptherenow.com</a></li>
+			<!-- <li><a href="https://grouptherenow.com">grouptherenow.com</a></li> -->
 			<li><a href="https://zsiegel92.github.io/resume/resume_siegel.html">Resume</a> (<a href="https://zsiegel92.github.io/resume/resume_siegel.pdf">pdf</a>)</li>
 		</ul>
 	</div>
@@ -39,7 +39,7 @@
   - [Source code 2019 (for 2022 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_2022)
   - [Front End Demo](https://mitzvah-scheduler.herokuapp.com/form) (takes up to 15 seconds to load if not opened recently)
 - _GroupThere_ Carpool Optimization (2016-17)
-  - [Live Application](http://www.grouptherenow.com)
+  - [Live Application](http://www.grouptherenow.com) (To test, please reach out!)
   - [Python/Angular Webapp Source](https://github.com/zsiegel92/poolchat)
   - [MATLAB Version Source](https://github.com/zsiegel92/GroupThere)
 - Reproducing predictive policing algorithm with _Stop LAPD Spying Coalition_ (2016-17)
