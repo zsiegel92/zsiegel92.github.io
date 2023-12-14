@@ -43,7 +43,7 @@
   - [Live Application](http://www.grouptherenow.com) (To test, please reach out!)
   - [Python/Angular Webapp Source](https://github.com/zsiegel92/poolchat)
   - [MATLAB Version Source](https://github.com/zsiegel92/GroupThere)
-- Reproducing predictive policing algorithm with _Stop LAPD Spying Coalition_ (2016-17)
+- Reproducing predictive policing algorithm with _Los Angeles Community Action Network_ (2016-17)
   - [MATLAB source](https://github.com/zsiegel92/HotspotsInLA)
   - [Whitepaper](https://zsiegel92.github.io/writing_repo/Predpol.pdf)
 - _FactoryOfEverything_ Supply Chain Optimization (2016)
