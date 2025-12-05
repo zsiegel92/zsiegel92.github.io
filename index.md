@@ -24,8 +24,14 @@
 ## Research and Software Projects
 
 - Open-Source/Hobby Software Projects
-  - [Capsule](https://github.com/zsiegel92/capsule) ([live app](https://capsulepartner.vercel.app/) on Vercel) - a highly-stylized message sharing system. 100% type-aware full-stack NextJS application (via server actions).
-  - [FastRPC](https://github.com/zsiegel92/fastRPC) a thin abstraction on top of FastAPI that, along with [openapi-typescript-sdk-generator](https://github.com/triggerdotdev/openapi-typescript-sdk-generator), allows for a fully type-safe Typescript SDK to be generated instantly on every save during development. Call Python functions from a fully type-aware TypeScript client with no networking code.
+  - [Capsule](https://github.com/zsiegel92/capsule) ([live app](https://capsulepartoner.vercel.app/) on Vercel) - a highly-stylized message sharing system. 100% type-aware full-stack NextJS application (via server actions).
+  - [FastRPC](https://github.com/zsiegel92/fastRPC) a thin abstraction on top of FastAPI that, along with [`openapi-typescript-sdk-generator`](https://github.com/triggerdotdev/openapi-typescript-sdk-generator), allows for a fully type-safe Typescript SDK to be generated instantly on every save during development. Call Python functions from a fully type-aware TypeScript client with no networking code.
+  - [`cuopt-stubs`](https://github.com/zsiegel92/cuopt-stubs) - Python stubs for cuOpt LP/MILP solver. The full cuOpt can only be installed on machines that support Cuda, which excludes MacOS - these stubs support writing cuOpt programs with full type-checking support on MacOS. Stubs auto-generated via MyPy `stubgen`.
+  - [`fzf-ts`](https://github.com/zsiegel92/fzf-ts) - A typescript interface to `fzf` via stdout and temp files. Because every selection CLI should really just be `fzf`.
+  - [`linear_cli`](https://github.com/zsiegel92/linear_cli) - CLI tool for managing Linear issues from the command line. Uses `fzf-ts`. Implementation in Go: [linear-cli-go](https://github.com/zsiegel92/linear-cli-go).
+  - [`taste-lever`](https://github.com/zsiegel92/taste-lever) - Simple one-pass prompt-optimization from human-annotated data.
+  - [`arxiv_html_viewer_sanity_chrome_extension`](https://github.com/zsiegel92/arxiv_html_viewer_sanity_chrome_extension) - Chrome extension to hide the unusable UI surrounding the otherwise-great HTML view in Arxiv.
+  - [`modal_milp`](https://github.com/zsiegel92/modal_milp) - Solving a mixed-integer linear program with Pyomo and COIN-OR CBC on Modal.com infrastructure.
 - Graduate Research - [_Data Aggregation and Resource Allocation_ (2021)](https://zsiegel92.github.io/writing_repo/UCLA/polling/data_aggregation.pdf) - [_Pandemic Mitigation Optimization_ (2021)](https://zsiegel92.github.io/writing_repo/UCLA/disaster_mitigation/covid_mitigation.pdf) - [_Fairness, Efficiency, and Feature-Awareness in the Allocation of
   Public Goods_ (2020)](https://zsiegel92.github.io/writing_repo/UCLA/polling/alpha_fairness.pdf)
 - Graduate Coursework
