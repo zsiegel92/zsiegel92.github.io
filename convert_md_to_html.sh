@@ -1,12 +1,11 @@
 #!/bin/bash
 # Convert index.md to index.html
-# Handles the mixed HTML/Markdown format correctly
+# Produces output styled like VS Code's markdown preview using CDN stylesheets
 
 set -e
 
 MD_FILE="${1:-index.md}"
 HTML_FILE="${2:-index.html}"
-TEMP_MD="/tmp/index_processed.md"
 
 if [ ! -f "$MD_FILE" ]; then
     echo "Error: $MD_FILE not found"
@@ -15,51 +14,55 @@ fi
 
 echo "Converting $MD_FILE to $HTML_FILE..."
 
-# Pre-process the markdown to prevent HTML from being treated as code blocks
-# The issue is that indented HTML (with tabs) gets treated as a code block by pandoc
-# We need to un-indent the HTML section at the top
+# Split the file: HTML section (before first ##) and Markdown section (from ## onward)
+HTML_SECTION=$(mktemp)
+MD_SECTION=$(mktemp)
+sed '/^## /,$d' "$MD_FILE" > "$HTML_SECTION"
+sed -n '/^## /,$p' "$MD_FILE" > "$MD_SECTION"
 
-# Split the file at the first ## header (where markdown starts)
-awk '
-/^## / { markdown=1 }
-!markdown {
-    # Remove leading tabs from HTML section to prevent code block treatment
-    gsub(/^\t+/, "")
-    print
-}
-markdown { print }
-' "$MD_FILE" > "$TEMP_MD"
+echo "  HTML section: $(wc -l < "$HTML_SECTION") lines"
+echo "  Markdown section: $(wc -l < "$MD_SECTION") lines"
 
-echo "Pre-processed markdown to handle HTML sections..."
+# Convert only the markdown section to HTML
+MD_HTML=$(mktemp)
+pandoc "$MD_SECTION" \
+    -f markdown-fancy_lists \
+    -t html \
+    --tab-stop=2 \
+    -o "$MD_HTML"
 
-# Convert using pandoc with settings for GFM-style markdown
-# Don't use --embed-resources so images stay as external references
-pandoc "$TEMP_MD" \
-    -f markdown \
-    -t html5 \
-    --standalone \
-    -c ./styles.css \
-    --metadata title="Research and Software Projects" \
-    -o "$HTML_FILE"
+# Assemble the full HTML document
+cat > "$HTML_FILE" <<'HEADER'
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Research and Software Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="vscode-body vscode-light">
+    <div class="markdown-body github-markdown-body" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+        <div class="github-markdown-content">
+HEADER
 
-# Clean up
-rm -f "$TEMP_MD"
+# Append the HTML section (preserved as-is) and converted markdown
+cat "$HTML_SECTION" >> "$HTML_FILE"
+cat "$MD_HTML" >> "$HTML_FILE"
 
-if [ -f "$HTML_FILE" ]; then
-    echo "✅ Successfully created $HTML_FILE ($(wc -l < "$HTML_FILE") lines)"
+cat >> "$HTML_FILE" <<'FOOTER'
+        </div>
+    </div>
+</body>
+</html>
+FOOTER
 
-    echo ""
-    echo "Checking image links..."
-    if grep -q 'img src=.*anderson_headshot' "$HTML_FILE"; then
-        IMG_SRC=$(grep -o 'img src="[^"]*anderson_headshot[^"]*"' "$HTML_FILE" | head -1)
-        echo "  Found: <$IMG_SRC>"
-    fi
+# Cleanup
+rm -f "$HTML_SECTION" "$MD_SECTION" "$MD_HTML"
 
-    echo ""
-    echo "To compare with previous version:"
-    echo "  git diff --stat $HTML_FILE"
-    echo "  git diff $HTML_FILE | head -50"
-else
-    echo "❌ Failed to create $HTML_FILE"
-    exit 1
-fi
+echo "✅ Created $HTML_FILE ($(wc -l < "$HTML_FILE") lines, $(ls -lh "$HTML_FILE" | awk '{print $5}'))"
+echo ""
+echo "  open $HTML_FILE"
+echo "  git diff $HTML_FILE"

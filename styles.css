@@ -3,29 +3,13 @@
 }
 
 html, body {
-	background: #f3f3f3;
-	/* font-family: 'Lato', helvetica, arial, sans-serif; */
 	font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: #222;
 }
 
-
-
-.mainDetails {
-	/*padding: var(--top-padding) var(--side-padding);*/
-	/*border-bottom: 2px solid var(--accent-color);*/
-	/*background: #ededed;*/
-}
-
 #contactDetails {
 	float: left;
-	/*margin-left: 30px;*/
-}
-
-.flex-container {
-	display: flex;
-	flex-direction:row;
 }
 
 #name h1 {
@@ -41,7 +25,6 @@ html, body {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
 
-
 #headshot {
 	width: 15%;
 	float: left;
@@ -56,10 +39,7 @@ html, body {
 
 #name {
 	float: left;
-	/* display: inline-block; */
 }
-
-
 
 #contactDetails ul {
 	list-style-type: none;
