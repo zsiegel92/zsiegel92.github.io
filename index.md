@@ -24,8 +24,8 @@
 ## Research and Software Projects
 
 - Recent Open-Source/Hobby Software Projects
-  - (2026) [`clue-llm`](https://github.com/zsiegel92/clue-llm) ([live demo](https://clue-llm-eight.vercel.app/blog)) - Stress-testing LLM reasoning through next-token prediction. Generates NP-complete SAT logic puzzles rendered detective-style as "who's the killer?" games. Uses SymPy's SAT solver and asks LLMs solve them. Uses single-token strings for clean confidence measurement, to see if models "know when they're right"/"wrong". Includes experiments with strategic fine-tuning on confident mistakes. Inspired by Ilya Sutskever's claim that predicting the killer in a detective novel requires "a fair amount of reasoning."
-  - (2026) [`group_there`](https://github.com/zsiegel92/group_there) - Carpool optimization app for teams. NextJS/TypeScript re-implementation of the original GroupThere carpool optimization app (see 2016 entry below), with a Python solver backend deployed on [Modal](https://modal.com) infrastructure. Plan is to re-implement with [cuOpt](https://developer.nvidia.com/cuopt) to run on GPUs.
+  - (2026 - *work in-progress*) [`clue-llm`](https://github.com/zsiegel92/clue-llm) ([live demo](https://clue-llm-eight.vercel.app/blog)) - Stress-testing LLM reasoning through next-token prediction. Generates NP-complete SAT logic puzzles rendered detective-style as "who's the killer?" games. Uses SymPy's SAT solver and asks LLMs solve them. Uses single-token strings for clean confidence measurement, to see if models "know when they're right"/"wrong". Includes experiments with strategic fine-tuning on confident mistakes. Inspired by Ilya Sutskever's claim that predicting the killer in a detective novel requires "a fair amount of reasoning."
+  - (2026 - *work in-progress*) [`group_there`](https://github.com/zsiegel92/group_there) - Carpool optimization app for teams. NextJS/TypeScript re-implementation of the original GroupThere carpool optimization app (see 2016 entry below), with a Python solver backend deployed on [Modal](https://modal.com) infrastructure. Plan is to re-implement with [cuOpt](https://developer.nvidia.com/cuopt) to run on GPUs.
   - (2025) [`cuopt-stubs`](https://github.com/zsiegel92/cuopt-stubs) - Python stubs for cuOpt LP/MILP solver. The full cuOpt can only be installed on machines that support Cuda, which excludes MacOS - these stubs support writing cuOpt programs with full type-checking support on MacOS. Stubs auto-generated via MyPy `stubgen`.
   - (2025) [`fzf-ts`](https://github.com/zsiegel92/fzf-ts) - A typescript interface to `fzf` via stdout and temp files. Because every selection CLI should really just be `fzf`.
   - (2025) [`linear_cli`](https://github.com/zsiegel92/linear_cli) - CLI tool for managing Linear issues from the command line. Uses `fzf-ts`. Implementation in Go: [linear-cli-go](https://github.com/zsiegel92/linear-cli-go).
@@ -47,7 +47,6 @@
   - [Source code 2019 (for 2022 B'nai Mitzvot)](https://github.com/zsiegel92/mitzvah_2022)
   - [Front End Demo](https://mitzvah-scheduler.herokuapp.com/form) (takes up to 15 seconds to load if not opened recently)
 - _GroupThere_ Carpool Optimization (2016-17) (see 2026 entry above)
-  - [Live Application](http://www.grouptherenow.com) (To test, please reach out!)
   - [Python/Angular Webapp Source](https://github.com/zsiegel92/poolchat)
   - [MATLAB Version Source](https://github.com/zsiegel92/GroupThere)
 - Reproducing predictive policing algorithm with _Los Angeles Community Action Network_ (2016-17)

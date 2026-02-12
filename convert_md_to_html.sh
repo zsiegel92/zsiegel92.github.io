@@ -43,7 +43,7 @@ cat > "$HTML_FILE" <<'HEADER'
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="vscode-body vscode-light">
+<body class="vscode-body">
     <div class="markdown-body github-markdown-body" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
         <div class="github-markdown-content">
 HEADER
