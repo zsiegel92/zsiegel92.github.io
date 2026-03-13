@@ -50,14 +50,16 @@ single-token strings for clean confidence measurement, to see if models
 fine-tuning on confident mistakes. Inspired by Ilya Sutskever’s claim
 that predicting the killer in a detective novel requires “a fair amount
 of reasoning.”</li>
-<li>(2026 - <em>work in-progress</em>) <a
-href="https://github.com/zsiegel92/group_there"><code>group_there</code></a>
-- Carpool optimization app for teams. NextJS/TypeScript
-re-implementation of the original GroupThere carpool optimization app
-(see 2016 entry below), with a Python solver backend deployed on <a
-href="https://modal.com">Modal</a> infrastructure. Plan is to
-re-implement with <a href="https://developer.nvidia.com/cuopt">cuOpt</a>
-to run on GPUs.</li>
+<li>(2026) <a
+href="https://grouptherenow.com"><code>grouptherenow.com</code></a>(<a
+href="https://github.com/zsiegel92/group_there">GitHub</a>) - Carpool
+optimization app for teams. NextJS/TypeScript re-implementation of the
+original GroupThere carpool optimization app (see 2016 entry below),
+with a Python solver backend deployed on <a
+href="https://modal.com">Modal</a> infrastructure. Currently uses
+<code>glpk</code> for MINLP solver; plan is to re-implement with <a
+href="https://developer.nvidia.com/cuopt"><code>cuOpt</code></a> to run
+on GPU.</li>
 <li>(2025) <a
 href="https://github.com/zsiegel92/cuopt-stubs"><code>cuopt-stubs</code></a>
 - Python stubs for cuOpt LP/MILP solver. The full cuOpt can only be
