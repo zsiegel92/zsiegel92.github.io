@@ -39,7 +39,7 @@ Projects</h2>
 <ul>
 <li>Recent Open-Source/Hobby Software Projects
 <ul>
-<li>(2026 - <em>work in-progress</em>) <a
+<li><p>(2026 - <em>work in-progress</em>) <a
 href="https://github.com/zsiegel92/clue-llm"><code>clue-llm</code></a>
 (<a href="https://clue-llm-eight.vercel.app/blog">live demo</a>) -
 Stress-testing LLM reasoning through next-token prediction. Generates
@@ -49,55 +49,65 @@ single-token strings for clean confidence measurement, to see if models
 “know when they’re right”/“wrong”. Includes experiments with strategic
 fine-tuning on confident mistakes. Inspired by Ilya Sutskever’s claim
 that predicting the killer in a detective novel requires “a fair amount
-of reasoning.”</li>
-<li>(2026) <a
+of reasoning.”</p></li>
+<li><p>(2026) <a
 href="https://grouptherenow.com"><code>grouptherenow.com</code></a>(<a
 href="https://github.com/zsiegel92/group_there">GitHub</a>) - Carpool
 optimization app for teams. NextJS/TypeScript re-implementation of the
 original GroupThere carpool optimization app (see 2016 entry below),
 with a Python solver backend deployed on <a
-href="https://modal.com">Modal</a> infrastructure. Currently uses
-<code>glpk</code> for MINLP solver; plan is to re-implement with <a
-href="https://developer.nvidia.com/cuopt"><code>cuOpt</code></a> to run
-on GPU.</li>
-<li>(2025) <a
+href="https://modal.com">Modal</a> infrastructure. Implements
+combinatorial optimization subroutine in the <strong>Mojo</strong>
+programming language; mixed-integer linear program implemented in
+<code>glpk</code>, COIN-OR <code>cbc</code>, and Nvidia’s <a
+href="https://developer.nvidia.com/cuopt"><code>cuOpt</code></a>, which
+runs on GPU.</p>
+<blockquote>
+<p>The <code>cuOpt</code> solver’s massive GPU parallelism becomes
+optimal at large problem sizes, 100+ riders, see <a
+href="https://github.com/zsiegel92/group_there/blob/main/src/solver/BENCHMARK_RESULTS.md#L0-L1">numerical
+experiment results</a></p>
+</blockquote></li>
+<li><p>(2025) <a
 href="https://github.com/zsiegel92/cuopt-stubs"><code>cuopt-stubs</code></a>
 - Python stubs for cuOpt LP/MILP solver. The full cuOpt can only be
 installed on machines that support Cuda, which excludes MacOS - these
 stubs support writing cuOpt programs with full type-checking support on
-MacOS. Stubs auto-generated via MyPy <code>stubgen</code>.</li>
-<li>(2025) <a
+MacOS. Stubs auto-generated via MyPy <code>stubgen</code>.</p></li>
+<li><p>(2025) <a
 href="https://github.com/zsiegel92/mojal"><code>mojal</code></a> -
 Compile &amp; run Mojo programs on <a
 href="https://modal.com">Modal</a>. Mojo provides Python interop, so
 <code>mojal</code> deploys Mojo programs serverlessly with GPU
-access.</li>
-<li>(2025) <a
+access.</p></li>
+<li><p>(2025) <a
 href="https://github.com/zsiegel92/fzf-ts"><code>fzf-ts</code></a> - A
 typescript interface to <code>fzf</code> via stdout and temp files.
-Because every selection CLI should really just be <code>fzf</code>.</li>
-<li>(2025) <a
+Because every selection CLI should really just be
+<code>fzf</code>.</p></li>
+<li><p>(2025) <a
 href="https://github.com/zsiegel92/linear_cli"><code>linear_cli</code></a>
 - CLI tool for managing Linear issues from the command line. Uses
 <code>fzf-ts</code>. Implementation in Go: <a
-href="https://github.com/zsiegel92/linear-cli-go">linear-cli-go</a>.</li>
-<li>(2025) <a
+href="https://github.com/zsiegel92/linear-cli-go">linear-cli-go</a>.</p></li>
+<li><p>(2025) <a
 href="https://github.com/zsiegel92/taste-lever"><code>taste-lever</code></a>
-- Simple one-pass prompt-optimization from human-annotated data.</li>
-<li>(2024) <a
+- Simple one-pass prompt-optimization from human-annotated
+data.</p></li>
+<li><p>(2024) <a
 href="https://github.com/zsiegel92/arxiv_html_viewer_sanity_chrome_extension"><code>arxiv_html_viewer_sanity_chrome_extension</code></a>
 - Chrome extension to hide the unusable UI surrounding the
-otherwise-great HTML view in Arxiv.</li>
-<li>(2024) <a href="https://github.com/zsiegel92/fastRPC">FastRPC</a> a
-thin abstraction on top of FastAPI that, along with <a
+otherwise-great HTML view in Arxiv.</p></li>
+<li><p>(2024) <a href="https://github.com/zsiegel92/fastRPC">FastRPC</a>
+a thin abstraction on top of FastAPI that, along with <a
 href="https://github.com/triggerdotdev/openapi-typescript-sdk-generator"><code>openapi-typescript-sdk-generator</code></a>,
 allows for a fully type-safe Typescript SDK to be generated instantly on
 every save during development. Call Python functions from a fully
-type-aware TypeScript client with no networking code.</li>
-<li>(2023) <a href="https://github.com/zsiegel92/capsule">Capsule</a>
-(<a href="https://capsulepartoner.vercel.app/">live app</a> on Vercel) -
+type-aware TypeScript client with no networking code.</p></li>
+<li><p>(2023) <a href="https://github.com/zsiegel92/capsule">Capsule</a>
+(<a href="https://capsulepartner.vercel.app/">live app</a> on Vercel) -
 a highly-stylized message sharing system. 100% type-aware full-stack
-NextJS application (via server actions).</li>
+NextJS application (via server actions).</p></li>
 </ul></li>
 <li>Graduate Research - <a
 href="https://zsiegel92.github.io/writing_repo/UCLA/polling/data_aggregation.pdf"><em>Data
