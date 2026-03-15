@@ -6,6 +6,7 @@
 	<div id="name">
 		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
 		<h2>Software Engineer, Data Scientist</h2>
+    <h5>Bulding <a href="https://usecurrent.ai" target="_blank">Current.AI</a> full-time since 2024.</h5>
 	</div>
 	<div id="contactDetails" >
 		<ul>
@@ -28,6 +29,7 @@
   - (2026) [`grouptherenow.com`](https://grouptherenow.com)([GitHub](https://github.com/zsiegel92/group_there)) - Carpool optimization app for teams. NextJS/TypeScript re-implementation of the original GroupThere carpool optimization app (see 2016 entry below), with a Python solver backend deployed on [Modal](https://modal.com) infrastructure. Implements combinatorial optimization subroutine in the **Mojo** programming language; mixed-integer linear program implemented in `glpk`, COIN-OR `cbc`, and Nvidia's [`cuOpt`](https://developer.nvidia.com/cuopt), which runs on GPU.
 
     > The `cuOpt` solver's massive GPU parallelism becomes optimal at large problem sizes, 100+ riders, see [numerical experiment results](https://github.com/zsiegel92/group_there/blob/main/src/solver/BENCHMARK_RESULTS.md#L0-L1)
+
   - (2025) [`cuopt-stubs`](https://github.com/zsiegel92/cuopt-stubs) - Python stubs for cuOpt LP/MILP solver. The full cuOpt can only be installed on machines that support Cuda, which excludes MacOS - these stubs support writing cuOpt programs with full type-checking support on MacOS. Stubs auto-generated via MyPy `stubgen`.
   - (2025) [`mojal`](https://github.com/zsiegel92/mojal) - Compile & run Mojo programs on [Modal](https://modal.com). Mojo provides Python interop, so `mojal` deploys Mojo programs serverlessly with GPU access.
   - (2025) [`fzf-ts`](https://github.com/zsiegel92/fzf-ts) - A typescript interface to `fzf` via stdout and temp files. Because every selection CLI should really just be `fzf`.
@@ -36,6 +38,7 @@
   - (2024) [`arxiv_html_viewer_sanity_chrome_extension`](https://github.com/zsiegel92/arxiv_html_viewer_sanity_chrome_extension) - Chrome extension to hide the unusable UI surrounding the otherwise-great HTML view in Arxiv.
   - (2024) [FastRPC](https://github.com/zsiegel92/fastRPC) a thin abstraction on top of FastAPI that, along with [`openapi-typescript-sdk-generator`](https://github.com/triggerdotdev/openapi-typescript-sdk-generator), allows for a fully type-safe Typescript SDK to be generated instantly on every save during development. Call Python functions from a fully type-aware TypeScript client with no networking code.
   - (2023) [Capsule](https://github.com/zsiegel92/capsule) ([live app](https://capsulepartner.vercel.app/) on Vercel) - a highly-stylized message sharing system. 100% type-aware full-stack NextJS application (via server actions).
+
 - Graduate Research - [_Data Aggregation and Resource Allocation_ (2021)](https://zsiegel92.github.io/writing_repo/UCLA/polling/data_aggregation.pdf) - [_Pandemic Mitigation Optimization_ (2021)](https://zsiegel92.github.io/writing_repo/UCLA/disaster_mitigation/covid_mitigation.pdf) - [_Fairness, Efficiency, and Feature-Awareness in the Allocation of
   Public Goods_ (2020)](https://zsiegel92.github.io/writing_repo/UCLA/polling/alpha_fairness.pdf)
 - Graduate Coursework
