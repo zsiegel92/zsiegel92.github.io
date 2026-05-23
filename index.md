@@ -6,7 +6,9 @@
 	<div id="name">
 		<h1 style="margin-bottom : 1px;">Zach Siegel</h1>
 		<h2>Software Engineer, Data Scientist</h2>
-    <h5>Building <a href="https://usecurrent.ai" target="_blank">Current.AI</a> at Walleye Capital full-time since 2024.</h5>
+    <div>
+      <h5>AI Solutions at Walleye Capital full-time since 2024. Selling Current AI (now an internal product) through 2026.</h5>
+    </div>
 	</div>
 	<div id="contactDetails" >
 		<ul>
@@ -22,13 +24,14 @@
 </div>
 <br>
 
-## Research and Software Projects
+## Software and Research Projects
 
 - Recent Hobby/Open-Source Software Projects
   - (2026) [`clue-llm`](https://github.com/zsiegel92/clue-llm) ([live demo](https://clue-llm.com/blog)) - Stress-testing LLM reasoning on NP-complete logic problems. Generates SAT logic puzzles rendered detective-style as "who's the killer?" games. Uses SymPy's SAT solver and asks LLMs solve them. Uses single-token strings for clean confidence measurement for active sampling in fine-tuningt experiment that prioritizes confident mistakes. Inspired by Ilya Sutskever's claim that predicting the killer in a detective novel requires "a fair amount of reasoning."
   - (2026) [`grouptherenow.com`](https://grouptherenow.com)([GitHub](https://github.com/zsiegel92/group_there)) - Carpool optimization app for teams. NextJS/TypeScript re-implementation of the original GroupThere carpool optimization app (see 2016 entry below), with a Python solver backend deployed on [Modal](https://modal.com) infrastructure. Implements combinatorial optimization subroutine in the **Mojo** programming language; mixed-integer linear program implemented in `glpk`, COIN-OR `cbc`, and Nvidia's [`cuOpt`](https://developer.nvidia.com/cuopt), which runs on GPU.
 
     > The `cuOpt` solver's massive GPU parallelism becomes optimal at large problem sizes, 100+ riders, see [numerical experiment results](https://github.com/zsiegel92/group_there/blob/main/src/solver/BENCHMARK_RESULTS.md#L0-L1)
+
   - (2026) [`emoji-recsys`](https://github.com/zsiegel92/emoji-recsys) ([live demo](https://emoji-recsys.vercel.app/), [npm](https://www.npmjs.com/package/emoji-recsys)) - Semantic emoji search for React. Type a word or phrase, get the most relevant emojis back. Uses precomputed embeddings for 1,906 emojis and [all-MiniLM-L6-v2](https://huggingface.co/Xenova/all-MiniLM-L6-v2) via [Transformers.js](https://huggingface.co/docs/transformers.js) for query embedding. Runs entirely in the browser.
   - (2025) [`cuopt-stubs`](https://github.com/zsiegel92/cuopt-stubs) - Python stubs for cuOpt LP/MILP solver. The full cuOpt can only be installed on machines that support Cuda, which excludes MacOS - these stubs support writing cuOpt programs with full type-checking support on MacOS. Stubs auto-generated via MyPy `stubgen`.
   - (2025) [`mojal`](https://github.com/zsiegel92/mojal) - Compile & run Mojo programs on [Modal](https://modal.com). Mojo provides Python interop, so `mojal` deploys Mojo programs serverlessly with GPU access.
