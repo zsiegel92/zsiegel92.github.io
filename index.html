@@ -43,6 +43,19 @@ Projects</h2>
 <li>Recent Hobby/Open-Source Software Projects
 <ul>
 <li><p>(2026) <a
+href="https://github.com/zsiegel92/jevlint"><code>jevlint</code></a> -
+Minimal implementation of a performant linter that uses <a
+href="https://typesafe.ai">TypeSafe AI’s September 2026 “<em>Jev</em>”
+model release</a> to zero-shot classify violations of markdown-specified
+lint rules for every file of a codebase. Checks rules in a single model
+pass over shared state (the file contents); caches per-rule, per-file
+output in on-disk serialized store (redb); does a second-pass over
+failed linted files to identify line number ranges; supports static
+analysis gate for AI linting (e.g. type-checking and other linting
+commands that must pass on a per-file basis before AI linting is
+attempted). Core CLI and file-watching server implemented in Rust. VS
+Code extension included.</p></li>
+<li><p>(2026) <a
 href="https://github.com/zsiegel92/clue-llm"><code>clue-llm</code></a>
 (<a href="https://clue-llm.com/blog">live demo</a>) - Stress-testing LLM
 reasoning on NP-complete logic problems. Generates SAT logic puzzles
